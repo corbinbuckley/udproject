@@ -18,7 +18,7 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 80px;
+            padding-top: 120px;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -47,6 +47,13 @@ main_page_head = '''
             padding-bottom: 56.25%;
             position: relative;
         }
+        .navbar {
+            min-height: 103px;
+            margin-bottom: 20px;
+        }
+        .navbar-inverse {
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP.qnOpFvDqYjWBTmaNkdMfnQEsA0);
+        }   background-repeat: repeat-x;
         .scale-media iframe {
             border: none;
             height: 100%;
@@ -107,7 +114,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Fresh Tom Movie Trailers</a>
           </div>
         </div>
       </div>
