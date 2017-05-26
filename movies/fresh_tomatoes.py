@@ -14,7 +14,8 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>    
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
@@ -48,12 +49,21 @@ main_page_head = '''
             position: relative;
         }
         .navbar {
-            min-height: 103px;
+            min-height: 60px;
             margin-bottom: 20px;
         }
+        .navbar-header {
+            margin-top: 20px;
+            font-family: 'Cinzel Decorative', cursive;
+        }
         .navbar-inverse {
-            background-image: url(https://tse4.mm.bing.net/th?id=OIP.qnOpFvDqYjWBTmaNkdMfnQEsA0);
-        }   background-repeat: repeat-x;
+            background-image: url(images/moviereel.png);
+            background-repeat: repeat-x;
+            
+        {
+        .navbar-brand {
+ 
+        }
         .scale-media iframe {
             border: none;
             height: 100%;
@@ -114,7 +124,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tom Movie Trailers</a>
+            <a class="navbar-brand" href="#" style= "color: red; letter-spacing: 2px; padding: 2px;">Fresh  Tomatoes  Movie  Trailers</a>
           </div>
         </div>
       </div>
