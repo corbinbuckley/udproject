@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Toy Story", "Woody, Buzz, and the gang star in the hilarious fantasy-adventure about the lives Andy's toys lead when they're left alone.","https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg","http://video.disney.com/watch/toy-story-trailer-4bd800172718893a6ac45c67")
+toy_story = media.Movie("Toy Story", "Woody, Buzz, and the gang star in the hilarious fantasy-adventure about the lives Andy's toys lead when they're left alone.","https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg","https://youtu.be/KYz2wyBy3kc")
 
 avatar = media.Movie("Avatar","A marine on an alien planet", "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=5PSNL1qE6VY")
 
@@ -16,9 +16,8 @@ zootopia = media.Movie("Zootopia", "A city of animals needs good cops", "http://
 #print(toy_story.poster_image_url)
 #show trailer
 #toy_story.show_trailer()
-
 movies = [toy_story, avatar, star_wars, new_groove, inside_out, zootopia]
-#fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
 #print(media.Movie.VALID_RATINGS)
 #print(media.Movie.__module__) # Prints the name of the module in which this class was defined.
 #print(media.Movie.__name__)   # Prints the name of the class
