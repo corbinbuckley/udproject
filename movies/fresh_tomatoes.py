@@ -19,7 +19,7 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
-            padding-top: 120px;
+            padding-top: 80px;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -47,22 +47,6 @@ main_page_head = '''
         .scale-media {
             padding-bottom: 56.25%;
             position: relative;
-        }
-        .navbar {
-            min-height: 60px;
-            margin-bottom: 20px;
-        }
-        .navbar-header {
-            margin-top: 20px;
-            font-family: 'Cinzel Decorative', cursive;
-        }
-        .navbar-inverse {
-            background-image: url(images/moviereel.png);
-            background-repeat: repeat-x;
-            
-        {
-        .navbar-brand {
- 
         }
         .scale-media iframe {
             border: none;
@@ -121,8 +105,8 @@ main_page_content = '''
 
     <!-- Main Page Content -->
     <div class="container">
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-image: url(images/moviereel.png); min-height: 60px; margin-bottom: 20px;">
+        <div class="container" style="margin-top: 20px; font-family: 'Cinzel Decorative', cursive;">
           <div class="navbar-header">
             <a class="navbar-brand" href="#" style= "color: red; letter-spacing: 2px; padding: 2px;">Fresh  Tomatoes  Movie  Trailers</a>
           </div>
