@@ -21,7 +21,7 @@ class Child(Parent):
         Parent.__init__(self, last_name,eye_color)
         self.number_of_toys = number_of_toys
 
-    def show_info(self):
+    def show_info(self):  # Method overidding
         print("Last Name - "+self.last_name)
         print("Eye Color - "+self.eye_color)
         print("Number of toys - "+str(self.number_of_toys))
@@ -31,6 +31,6 @@ billy_cyrus = Parent("Cyrus", "blue")
 #print(billy_cyrus.last_name)
 
 miley_cyrus = Child("Cyrus", "Blue", 5)
-miley_cyrus.show_info()
+miley_cyrus.show_info(). # Method overidding
 #print(miley_cyrus.eye_color)
 #print(miley_cyrus.number_of_toys)

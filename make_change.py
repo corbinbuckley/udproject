@@ -11,7 +11,6 @@ def ask_change():
 
 def make_change(cents):
     # Use modulo to find the quarters
-    print(cents)
     parts = divmod(cents,25)
     quarters = parts[0]
     remaining_cents = parts[1]
